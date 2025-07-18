@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Adee... Maafin Aku Dong 😖💗</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #ffe0f0, #fff0fa);
+      font-family: 'Comic Sans MS', cursive;
+      text-align: center;
+      padding: 40px;
+      color: #333;
+    }
+    .emoji-nangis {
+      font-size: 80px;
+      animation: goyang 1s infinite;
+    }
+    @keyframes goyang {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(1.5deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-1.5deg); }
+      100% { transform: rotate(0deg); }
+    }
+    .surat {
+      background: #fff;
+      display: inline-block;
+      padding: 30px;
+      border-radius: 25px;
+      max-width: 500px;
+      box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+      margin-top: 20px;
+    }
+    h1 {
+      color: #ff3385;
+    }
+    button {
+      background: #ff66b2;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 18px;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: 25px;
+      box-shadow: 0 4px #cc4d99;
+    }
+    button:active {
+      box-shadow: none;
+      transform: translateY(2px);
+    }
+    .peluk {
+      display: none;
+      font-size: 40px;
+      margin-top: 20px;
+      animation: muncul 1s ease-in-out forwards;
+    }
+    @keyframes muncul {
+      from { opacity: 0; transform: scale(0.5); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji-nangis">😭</div>
+  <div class="surat">
+    <h1>Adee Sayangku... 🥺</h1>
+    <p>Aku tahu aku salah... aku bikin kamu marahhh ya? 😣</p>
+    <p>Maafin aku yaaa, aku kangen suara kamu yang centill dan yapping ituu🥹</p>
+    <p>Kalau aku bisa, akuu mau peluk sekarang kamu dan cipok dikit gpp hehehehe💞</p>
+    <p>Boleh nggak aku minta maaf sambil kasih peluk virtual yang super lembut dan wangi? 😚</p>
+    <button onclick="munculPeluk()">Maafin Glenn, ya? 😽</button>
+    <div id="peluk" class="peluk">🤗 *Peluk Lembut Penuh Cinta untuk Adee!* 💖</div>
+  </div>
+
+  <script>
+    function munculPeluk() {
+      document.getElementById("peluk").style.display = "block";
+      alert("HUHU MAKASIH ADEE SAYANG 😭❤️ Glenn sayang banget sama mai hani Bani sweetyku 😘");
+    }
+  </script>
+</body>
+</html>
